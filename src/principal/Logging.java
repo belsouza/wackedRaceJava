@@ -47,8 +47,6 @@ public class Logging extends JFrame implements Serializable {
     public static void getLogger() {
 
         List<String> lines = new ArrayList<>();
-
-
         try (BufferedReader br = new BufferedReader(new FileReader(relativePath))) {
 
             String text;
@@ -64,7 +62,7 @@ public class Logging extends JFrame implements Serializable {
         *  não lê todas as linhas; às vezes lê e considera as linhas em branco
         *  por isso, a sentença não usar o sinal de igualdade e sim o maior e o igual
         * */
-        if(lines.size() >= 10){
+        if(lines.size() > 10){
             try {
                 Thread.sleep(500);
                 Podium.exibir( lines.toString()

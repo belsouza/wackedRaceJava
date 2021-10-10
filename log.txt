@@ -1,11 +1,11 @@
-Carro de Pedra
-Carroça a Vapor
-Cupê Mal-Assombrado
-Carro Mágico
 Carrão Aerodinâmico
-Máquina do Mal
+Carro de Pedra
 Carro-Tronco
-Máquina Voadora
-Carro Tanque
 Carrinho pra frente
+Carro Tanque
+Cupê Mal-Assombrado
+Máquina do Mal
+Máquina Voadora
+Carroça a Vapor
 Carro a Prova de Balas
+Carro Mágico

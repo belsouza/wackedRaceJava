@@ -20,7 +20,7 @@ class MyPanel extends JPanel{
         jTextArea.setText(texto);
         jTextArea.setRows(10);
         jTextArea.setColumns(5);
-        jTextArea.setBorder(new EmptyBorder(180, 40,30,30));
+        jTextArea.setBorder(new EmptyBorder(175, 40,30,30));
         this.add(jTextArea);
 
         this.repaint();
@@ -50,11 +50,11 @@ public class Podium {
 
         JFrame frame = new JFrame();
         frame.setTitle("Pódio");
-        JButton button = new JButton("Ok!");
-        button.setBounds(260, 380, 80, 30);
+        JButton button = new JButton(new ImageIcon("./src/images/btn-03.png"));
+        button.setBounds(260, 370, 80, 40);
         button.addActionListener(e->{
-            //frame.dispose();
-            System.exit(0);
+            //frame.dispose(); -> Fecha o Jframe
+            System.exit(0); //Fecha a aplicação
         });
         frame.add(button);
         frame.add( new MyPanel( texto ) );

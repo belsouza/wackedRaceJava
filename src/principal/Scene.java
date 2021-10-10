@@ -96,8 +96,8 @@ public class Scene extends JFrame {
         lbl_pista.add( lbl_carro10 );
 
 
-        JButton btn_start = new JButton("Iniciar");
-        btn_start.setBounds(500, 600, 80, 30 );
+        JButton btn_start = new JButton( new ImageIcon("./src/images/btn-01.png") );
+        btn_start.setBounds(500, 600, 80, 40 );
 
         btn_start.addActionListener(e -> {
 
@@ -151,8 +151,8 @@ public class Scene extends JFrame {
             lbl_pista.repaint();
         });
 
-        JButton btn_cancel = new JButton("Parar");
-        btn_cancel.setBounds(600, 600, 80, 30 );
+        JButton btn_cancel = new JButton(new ImageIcon("./src/images/btn-02.png"));
+        btn_cancel.setBounds(600, 600, 80, 40 );
         btn_cancel.addActionListener(e -> {
             JOptionPane.showMessageDialog(this,"Bye!");
             System.exit(0);
