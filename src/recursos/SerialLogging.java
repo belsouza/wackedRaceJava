@@ -1,4 +1,4 @@
-package principal;
+package recursos;
 
 import javax.swing.*;
 import java.io.*;

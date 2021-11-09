@@ -1,4 +1,4 @@
-package principal;
+package recursos;
 
 import javax.swing.*;
 import java.io.*;
@@ -13,7 +13,11 @@ import java.util.List;
 
 public class Logging extends JFrame implements Serializable {
 
-    private static final String relativePath = "./log.txt";
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static final String relativePath = "./log.txt";
 
     public static void clearLog(){
 

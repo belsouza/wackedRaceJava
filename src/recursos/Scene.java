@@ -1,4 +1,4 @@
-package principal;
+package recursos;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +13,12 @@ import java.awt.*;
  * */
 public class Scene extends JFrame {
 
-    private final JLabel lbl_pista;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private final JLabel lbl_pista;
 
     private JLabel lbl_carro00;
     private JLabel lbl_carro01;

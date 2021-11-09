@@ -1,11 +1,15 @@
-package principal;
+package recursos;
 
 import javax.swing.*;
 import java.util.Random;
 
 public final class Cars extends JLabel implements Runnable {
 
-   	private final String name;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private final String name;
     private int posx;
     private final int posy;
 

@@ -1,4 +1,4 @@
-package principal;
+package recursos;
 
 import javax.swing.*;
 import java.awt.*;
@@ -46,7 +46,4 @@ public class Splash extends JFrame {
     *  Chama a tela de apresentação após 3 segundos
     *
     * */
-    public static void main(String[] args) {
-        new Splash(3);
-    }
 }
